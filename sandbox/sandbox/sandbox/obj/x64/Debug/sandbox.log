@@ -1,0 +1,46 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.11.2'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  sandbox.c
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(36,16): warning : conversion to ‘rlim_t {aka long unsigned int}’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(36,16): warning :   rl.rlim_cur = timelimit ;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(36,16): warning :                 ^~~~~~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(37,16): warning : conversion to ‘rlim_t {aka long unsigned int}’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(37,16): warning :   rl.rlim_max = timelimit+1000;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(37,16): warning :                 ^~~~~~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(41,16): warning : conversion to ‘rlim_t {aka long unsigned int}’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(41,16): warning :   rl.rlim_cur = memory_limit ;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(41,16): warning :                 ^~~~~~~~~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(42,16): warning : conversion to ‘rlim_t {aka long unsigned int}’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(42,16): warning :   rl.rlim_max = memory_limit+1000;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(42,16): warning :                 ^~~~~~~~~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(58,20): warning : implicit declaration of function ‘fileno’; did you mean ‘mblen’? [-Wimplicit-function-declaration]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(58,20): warning :     dup2(newstdout, fileno(stdout));
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(58,20): warning :                     ^~~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(58,20): warning :                     mblen
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(79,8): warning : implicit declaration of function ‘wait4’; did you mean ‘wait’? [-Wimplicit-function-declaration]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(79,8): warning :     if (wait4(pid, &status, WUNTRACED, &ru) == -1)
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(79,8): warning :         ^~~~~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(79,8): warning :         wait
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(82,17): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(82,17): warning :      time_used = ru.ru_utime.tv_sec * 1000
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(82,17): warning :                  ^~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(86,19): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(86,19): warning :      memory_used = ru.ru_maxrss;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(86,19): warning :                    ^~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(98,17): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(98,17): warning :      time_used = ru.ru_utime.tv_sec * 1000
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(98,17): warning :                  ^~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(102,19): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(102,19): warning :      memory_used = ru.ru_maxrss;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(102,19): warning :                    ^~
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(139,10): warning : return makes pointer from integer without a cast [-Wint-conversion]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(139,10): warning :    return -1;
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(139,10): warning :           ^
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(141,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(141,1): warning :  }
+E:\Cspace\sandbox\sandbox\sandbox\sandbox.c(141,1): warning :  ^
+  Linking objects
+  sandbox.vcxproj -> E:\Cspace\sandbox\sandbox\sandbox\bin\x64\Debug\sandbox.out

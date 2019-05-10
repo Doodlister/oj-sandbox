@@ -1,0 +1,43 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to '192.168.11.2'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning : conversion to ‘int’ from ‘__time_t {aka long int}’ may alter its value [-Wconversion]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :      time_used = ru.ru_utime.tv_sec * 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       + ru.ru_utime.tv_usec / 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       + ru.ru_stime.tv_sec * 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       + ru.ru_stime.tv_usec / 1000;
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(69,6): warning :       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(70,22): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(70,22): warning :      memory_used = ru.ru_maxrss;
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(70,22): warning :                    ~~~^~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning : conversion to ‘int’ from ‘__time_t {aka long int}’ may alter its value [-Wconversion]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :      time_used = ru.ru_utime.tv_sec * 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       + ru.ru_utime.tv_usec / 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       + ru.ru_stime.tv_sec * 1000
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       + ru.ru_stime.tv_usec / 1000;
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(81,6): warning :       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(82,22): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(82,22): warning :      memory_used = ru.ru_maxrss;
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(82,22): warning :                    ~~~^~~~~~~~~
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(111,67): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(111,67): warning :   char *args[] = { "/root/projects/SandBox/bin/x64/Release/dd",NULL};
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(111,67): warning :                                                                    ^
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(112,35): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(112,35): warning :   run(args, 1, 100, "1.in", "1.out");
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(112,35): warning :                                    ^
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(112,35): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(106,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(106,1): warning :  }
+E:\Cspace\LinuxSandbox\ConsoleApplication1\main.cpp(106,1): warning :  ^
+  Linking objects
+  ConsoleApplication1.vcxproj -> E:\Cspace\LinuxSandbox\ConsoleApplication1\bin\x64\Release\SandBox.out
