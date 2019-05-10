@@ -1,1 +1,0 @@
-g++ -o "/root/projects/SandBox/bin/x64/Release/SandBox.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/SandBox/obj/x64/Release/main.o

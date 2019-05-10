@@ -1,8 +1,0 @@
-﻿  Validating sources
-  Copying sources remotely to '192.168.11.2'
-  Validating architecture
-  Starting remote build
-  Compiling sources:
-  main.cpp
-  Linking objects
-  ConsoleApplication1.vcxproj -> E:\Cspace\LinuxSandbox\ConsoleApplication1\bin\x64\Debug\SandBox.out

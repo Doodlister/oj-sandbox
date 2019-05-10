@@ -1,1 +1,0 @@
-g++ -o "/root/projects/sandbox/bin/x64/Debug/sandbox.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/sandbox/obj/x64/Debug/sandbox.o
